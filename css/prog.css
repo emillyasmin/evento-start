@@ -1,0 +1,37 @@
+/* Programação */
+.titulo_prog {
+  background: url(../img/bg-titulo.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.prog {
+  margin: 40px 0px 40px 0px;
+}
+
+.prog h2 {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.prog img {
+  margin-bottom: 5px;
+}
+
+.prog span {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.prog p,
+.prog span {
+  margin-bottom: 20px;
+}
+
+.verde {
+  background: #85b48a;
+  padding: 40px 0px 20px 0px;
+}

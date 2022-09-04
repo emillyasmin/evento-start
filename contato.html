@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>START - Contato</title>
+  <meta name="description" content="Descubra mais sobre o Start, a programação do evento, seus convidados e como entrar em contato com o IFRN.">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="START - Contato" />
+  <meta property="og:description" content="Descubra mais sobre o Start, a programação do evento, seus convidados e como entrar em contato com o IFRN." />
+  <meta property="og:url" content="https://emillyasmin.github.io/evento-start/" />
+  <meta property="og:image" content="-" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/style-raw.css">
+  <link rel="stylesheet" href="css/contato.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <script>document.documentElement.classList.add("js")</script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4 marca">start</a>
+      <nav class="header_menu grid-12">
+        <ul>
+          <li><a href="prog.html">programação</a></li>
+          <li><a href="contato.html" class="menu_ativo">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Fecha Header -->
+
+  <section class="titulo-interno titulo_contato">
+    <div class="container">
+      <h1 class="grid-16 fadeInDown" data-anime="500">contato</h1>
+    </div>
+  </section>
+  <!-- Fecha Título Interno -->
+
+  <section class="contato container fadeInDown" data-anime="1200">
+    <form id="orcamento_form" method="post" class="contato-form grid-8 formphp">
+      <div>
+        <h3>Tire suas dúvidas com a gente!</h3>
+      </div>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" name="telefone">
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
+    </form>
+
+    <div class="contato_dados grid-8">
+      <h3>Dados</h3>
+      <span>(84) 4005-4101</span>
+      <span>gabin.ap@ifrn.edu.br</span>
+      <span>Rodovia RN 233, KM 02, nº. 1000</span>
+      <span>Bairro Chapada do Apodi, Apodi-RN, CEP: 59.700-000</span>
+
+      <ul>
+        <li><a href="https://www.facebook.com/ifrncampusapodi" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook IFRN"></a></li>
+        <li><a href="https://www.instagram.com/ifrnapodi/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram IFRN"></a></li>
+        <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter IFRN"></a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Fecha Contato -->
+
+  <section class="container contato_ifrn">
+    <a href="https://www.google.com/maps/place/IFRN+Campus+Apodi/@-5.6267895,-37.8073373,15z/data=!4m5!3m4!1s0x0:0x4df8711927cb367!8m2!3d-5.6267895!4d-37.8073373" target="_blank" class="grid-16">
+      <img src="img/endereco-ifrn.jpg" alt="IFRN">
+    </a>
+  </section>
+  <!-- Fecha Contato IFRN -->
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+
+        <div class="grid-12 footer_contato">
+          <ul>
+            <li>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte | Apodi</li>
+            <li>Rodovia RN 233, KM 02, nº. 1000, Bairro Chapada do Apodi, Apodi-RN, CEP: 59.700-000.</li>
+            <li>E-mail: gabin.ap@ifrn.edu.br</li>
+            <li>Telefone: (84) 4005-4101</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer_redes">
+          <ul>
+            <li><a href="https://www.facebook.com/ifrncampusapodi" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook IFRN"></a></li>
+            <li><a href="https://www.instagram.com/ifrnapodi/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram IFRN"></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter IFRN"></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">START - Alguns direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Fecha Footer -->
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
